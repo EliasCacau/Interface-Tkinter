@@ -4,7 +4,7 @@ class Tela:
     def __init__(self, master):
         self.janela = master
         self.janela.title("Gerenciador Grid")
-        self.janela.geometry("200x150")
+        self.janela.geometry("300x200")
         self.janela.resizable(0, 0)
         self.but1 = tk.Button(self.janela, text='1', width="5", height="2")
         self.but1.grid(column=2, row=0,   padx=0, pady=0)
