@@ -8,7 +8,7 @@ class Tela:
         self.janela.configure(background="#333533")
         self.janela.resizable(0, 0)
 
-        self.lbl1 = tk.Label(self.janela, text="Número 1:", bg="#f5cb5c", fg="#333533", font="Verdana")
+        self.lbl1 = tk.Label(self.janela, text="Número 1:", bg="#f5cb5c", fg="#333533", font="Verdana", anchor=tk.CENTER)
         self.lbl1.grid(column=0, row=0, stick=tk.EW, padx=1, pady=5)
         self.ent1 = tk.Entry(self.janela, font="Verdana, 12", bg="#f5cb5c", fg="#333533", width=15)
         self.ent1.grid(column=1, row=0)

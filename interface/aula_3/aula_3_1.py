@@ -11,8 +11,8 @@ class Tela:
         self.janela.geometry("800x600")
         self.janela.resizable(width=False, height=False)
         self.janela.configure(background="#20b2aa")
-        self.v = tk.StringVar()
-        self.cbx = ttk.Combobox(self.janela, textvariable=self.v, width=12)
+
+        self.cbx = ttk.Combobox(self.janela, width=12)
         self.cbx['values'] = ('Domingo', 'Segunda', 'Terça')
         self.cbx.current(1)
         self.cbx.pack()
